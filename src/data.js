@@ -52,7 +52,7 @@ let shopItemsData = [{
     name: "Cerveza",
     price: 50,
     description: "lLorem ipsum dolor sit amet consectetur adipisicing.",
-    img: "../img/cerveza.webp",
+    img: "../img/cerveza.jpg",
 }
 
 ] // \\
