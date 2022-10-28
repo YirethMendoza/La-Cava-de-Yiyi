@@ -205,3 +205,28 @@ a {
     border-radius: 4px;
     padding: 3px 6px;
 }
+
+.contactanos {
+    background-color: #606c38;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.formulario {
+    display: flex;
+    background-color: #fefae0;
+    justify-content: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.send-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}

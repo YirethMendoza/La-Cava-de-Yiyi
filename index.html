@@ -30,61 +30,45 @@
      
      </div>
 
-    <div class="shop" id="shop">
- 
-        <!--la información del producto-->
-       
-       <!-- <div class="item">
-        <img width="220" src="images/img-2.jpg" alt="">
-        <div class="details">
-            <h3>Office Shirt</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            <div class="price-quantity">
-                <h2>$100</h2>
-                <div class="buttons"> <!--Para incrmentar o disminuir productos-->
-                    <!-- <i class="bi bi-dash-lg"></i>
-                    <div class="quantity">0</div>
-                    <i class="bi bi-plus-lg"></i>
-                </div>
-            </div>
+    <div class="shop" id="shop"></div>
+    
+    <div class="contactanos">¡Contactanos!</div>
+<div class="formulario">
+    <form id="form">
+        <div class="field">
+          <label for="name">Nombre</label>
+          <input type="text" name="name" id="name">
         </div>
+        <div class="field">
+          <label for="last">Apellido</label>
+          <input type="text" name="last" id="last">
         </div>
-
-
-        
-       <div class="item">
-        <img width="220" src="images/img-1.jpg" alt="">
-        <div class="details">
-            <h3>Casual Shirt</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-            <div class="price-quantity">
-                <h2>$45</h2>
-                <div class="buttons"> <!--Para incrmentar o disminuir productos-->
-                    <!-- <i class="bi bi-dash-lg"></i>
-                    <div class="quantity">0</div>
-                    <i class="bi bi-plus-lg"></i>
-                </div>
-            </div>
+        <div class="field">
+          <label for="number">Número</label>
+          <input type="text" name="number" id="number">
         </div>
+        <div class="field">
+          <label for="email">Email </label>
+          <input type="text" name="email" id="email">
         </div>
-       <div class="item">
-            <img width="220" src="images/img-1.jpg" alt="">
-            <div class="details">
-                <h3>Casual Shirt</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                <div class="price-quantity">
-                    <h2>$45</h2>
-                    <div class="buttons"> <!--Para incrmentar o disminuir productos-->
-                        <!-- <i class="bi bi-dash-lg"></i>
-                        <div class="quantity">0</div>
-                        <i class="bi bi-plus-lg"></i>
-                    </div>
-                </div>
-            </div>
-        </div>  -->
-       
-    </div>
+        <div class="field">
+          <label for="reply_to">Mensaje</label>
+          <input type="text" name="reply_to" id="reply_to">
+        </div>
+        <div class="send-btn">
+        <input type="submit" id="button" value="Send Email" >
+         </div>
+    </form>
+</div>
+    
 </body>
+<script src="./src/formulario.js"></script>
+<script type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+emailjs.init('CWkAzrjNeLr1w7rJP')
+</script>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 <script src="src/data.js"></script>
